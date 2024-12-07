@@ -39,3 +39,73 @@ const NavBar = () => {
 };
 
 export default NavBar;
+
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    
+}
+.nav-menu li{
+    padding: 0 1rem;
+}
+
+.nav-menu li a{
+    font-size: 1.2rem;
+    font-weight: 500;
+   
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+}
+
+.hamburger{
+    display:none;
+
+}
+
+@media screen and  (max-width: 1040px){
+.nav-menu{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0,0.9);
+    position:fixed;  
+    top: 0;
+    left: -100%;
+    /* 0 */
+    z-index: -1;
+    transition: 0.3s;
+
+}
+
+.nav-menu li {
+    padding:1rem 0;
+}
+
+.nav-menu.active {
+    left:0;
+    z-index: 10;
+    
+}
+.nav-menu li a{
+    font-size: 2rem;
+    color: white;}
+    
+.hamburger{
+    display:block;
+    cursor: pointer;
+    z-index: 20;
+
+}
+}
+    
