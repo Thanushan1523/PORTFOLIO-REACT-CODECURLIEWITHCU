@@ -5,11 +5,21 @@ import { FaBars, FaTimes } from "react-icons/fa";
 
 const NavBar = () => {
     const [clicked, setClicked] = useState(false);
+    const[color,setColor]=useState(false)
+    const handleColorChange =()=> {
+      if(window.scrollY >0){
+        setColor(true)
+      }
+      else{
+        setColor(false);
+      }
+    }
 
+    window.addEventListener("scroll" ,handleColorChange)
     const handleClick = () => setClicked(!clicked);
 
     return (
-        <div className="header">
+        <div className={color ? "header header-bg" :"header"}>
             <Link to="/">
                 <h1>MyPortfolio</h1>
             </Link>
