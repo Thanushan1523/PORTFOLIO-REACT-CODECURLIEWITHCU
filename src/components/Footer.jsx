@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer-container">
             <div className="left">
                 <div className='location'>
-            <FaHome size={20} style={{ color: "#fff", marginRight: "2rem"}}/>
+            <FaHome size={30} style={{ color: "#fff", marginRight: "2rem"}}/>
             <p>61,Shepmore Terrace ,
             Scarborough 
             Onatario

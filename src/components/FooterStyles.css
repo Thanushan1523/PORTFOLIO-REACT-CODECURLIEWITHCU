@@ -29,7 +29,7 @@
     line-height: 30px;
 }
 
-.left{
+.right{
     height: 100%;
     max-width: 100%;
     display: flex;
@@ -48,4 +48,14 @@
 
 .p{
     font-size: 12rem;
+}
+
+
+@media screen and (max-width:640px){
+
+    .footer-container{
+        
+        grid-template-columns: 1fr;
+        
+    }
 }
