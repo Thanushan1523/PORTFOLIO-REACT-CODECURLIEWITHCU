@@ -7,8 +7,9 @@ const Pro = () => {
   return (
     <div>
           <NavBar/>
+          <Hero/>
             <Footer/>
-            <Hero/>
+            
     </div>
     
   )
