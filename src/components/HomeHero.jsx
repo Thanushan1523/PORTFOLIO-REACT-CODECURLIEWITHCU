@@ -15,7 +15,7 @@ const HomeHero = () => {
             <p>Hi Iam a software developer</p>
             <h1> React Developer</h1> 
             <Link to="/projects" className='btn'> Projects </Link>
-            <Link to="/contact" className='btn-light'> Contact</Link>
+            <Link to="/contacts" className='btn-light'> Contact</Link>
 
         </div>
         </div>
