@@ -3,6 +3,7 @@
     background: rgba(0,0,0,0.5);
     height: 60vh;
     position: relative;
+    top:90px;
     overflow: hidden;
 
 }
