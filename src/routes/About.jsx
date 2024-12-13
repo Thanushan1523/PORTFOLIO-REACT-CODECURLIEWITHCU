@@ -5,7 +5,7 @@ import Hero from '../components/Hero'
 const About = () => {
   return (
     <div><NavBar/>
-    <Hero/>
+    <Hero heading="fbbkkbgbgbggbb" text="kjgjj"/>
             <Footer/>
             </div>
   )

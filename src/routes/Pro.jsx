@@ -7,7 +7,7 @@ const Pro = () => {
   return (
     <div>
           <NavBar/>
-          <Hero/>
+          <Hero  heading="PROJECTS" text="this is few projects" />
             <Footer/>
             
     </div>
