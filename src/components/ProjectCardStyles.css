@@ -1,3 +1,4 @@
+
 .work-container{
     position: relative;
     z-index: 2;
@@ -20,7 +21,28 @@
 }
 
 .project-card{
-    background-color: rgb(239, 233, 233);
+    background-color: rgb(14, 13, 13);
+    padding: 2rem 1rem;
+}
+.project-title{
+    color: beige;
+    padding: 1rem;
+}
+
+.project-details p{
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
+    text-align: justify;
+
+}
+
+.pro-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+.project-card img {
+    width: 100%;
 }
 
 @media screen and (max-width: 740px) {
@@ -28,7 +50,7 @@
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
-        background-color: aliceblue;
+        background-color: rgb(11, 11, 11);
     }
 }
 
