@@ -26,10 +26,10 @@
 }
 .project-title{
     color: beige;
-    padding: 1rem;
-}
+    padding: 1rem 0;
+} 
 
-.project-details p{
+ .project-details p{
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: justify;
@@ -39,8 +39,13 @@
 .pro-btns{
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0;
 }
+
+.pro-btns .btn{
+padding:0.5rem  1rem ;
+}
+
 .project-card img {
     width: 100%;
 }
