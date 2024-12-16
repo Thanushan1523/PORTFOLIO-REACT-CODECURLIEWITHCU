@@ -1,20 +1,20 @@
 import React from 'react'
 import "./ProjectCardStyles.css"
-// import "./Test.css"
-import pro1 from "../assets/project1.jpg"
+
+
 import { NavLink } from 'react-router-dom'
 
-const WorkCard = () => {
+const WorkCard = ({imgsrc,text,title,view}) => {
   return (
     
             <div className='project-card'>
-                <img src={props.imgsrc} alt="ff"/>
-                <h2 className='project-title'>project tittle</h2>
+                <img src={imgsrc} alt="ff"/>
+                <h2 className='project-title'>{title}</h2>
                 <div className='project-details'>
-                <p>This is texruuruyruy utiiiiiiiiiiiiiiii toooooooooooooooooooo tooooooooooooooo uttttttt utttttttttttttttttttttttttttttoott</p>
+                <p>{text}</p>
                 <div className='pro-btns'>
                     <NavLink to="url.com" className="btn">view</NavLink>
-                    <NavLink to="url.com" className="btn">source</NavLink>
+                    <NavLink to={view} className="btn">source</NavLink>
                 </div>
                 </div>
             </div>

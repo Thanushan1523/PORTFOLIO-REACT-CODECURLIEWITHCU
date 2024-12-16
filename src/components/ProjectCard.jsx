@@ -1,18 +1,24 @@
-import React from 'react'
-import "./ProjectCardStyles.css"
-// import "./Test.css"
-import pro1 from "../assets/project1.jpg"
-import { NavLink } from 'react-router-dom'
-import WorkCard from './WorkCard'
+import React from 'react';
+import "./ProjectCardStyles.css";
+
+import WorkCard from './WorkCard';
+import ProjectData from './Data';
+
 
 const ProjectCard = () => {
   return (
     <div className="work-container"> 
-    <h1 className='project-heading'>hddyybyytt
+    <h1 className='project-heading'>Projects 
         </h1>
         <div className='project-container'>
             
-           <WorkCard/>
+          {ProjectData.map((project,index) =>(<WorkCard
+            key={index}
+            imgsrc={project.imgsrc}
+            text={project.text}
+            view={project.view}
+            />
+          ))}
             
             </div></div>
   )
