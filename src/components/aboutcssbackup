@@ -38,23 +38,15 @@
     border: 1px solid black;
 }
 
-.right .top{
+.img-stack top{
     grid-column: 1/ span 8;
     grid-row: 1;
     padding-top: 20%;
     z-index: 6;
 }
-.right .bottom{
+.img-stack bottom{
     grid-column: 4/ -1;
     grid-row: 1;
   
     z-index: 5;
-}
-.img-stack {
-    position: relative;
-}
-.img-stack img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px; /* Optional for rounded corners */
 }
