@@ -8,7 +8,7 @@ const Contacts = () => {
   return (
     <div>
      <NavBar/>
-     <Hero heading="about me"   text="0777 888 888 88 "/>
+     <Hero heading="fvbgfdbhf"   text="0jygjnyfj"/>
      <Form/>
 
      <Footer/>

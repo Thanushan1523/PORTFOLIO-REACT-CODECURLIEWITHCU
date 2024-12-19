@@ -38,9 +38,12 @@ const Footer = () => {
                 <h4>about me</h4>
                 <p>adf jbtunreuu  ugc gu gcfuccg giuc</p>
             <div className='social'>
+            <a href="https://www.linkedin.com/in/satkunarasa-thanushan/" target="_blank" rel="noopener noreferrer">
+                <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem"}}/>
+                </a>
                 <FaFacebook size={30} style={{ color: "#fff", marginRight: "1rem"}}/>
                 <FaTwitter size={30} style={{ color: "#fff", marginRight: "1rem"}}/>
-                <FaLinkedin size={30} style={{ color: "#fff", marginRight: "1rem"}}/>
+                
             </div>
             </div>
         </div>
