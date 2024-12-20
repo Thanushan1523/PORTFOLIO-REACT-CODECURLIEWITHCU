@@ -27,6 +27,9 @@ const AboutContent = () => {
 
 </div>
         </div>
+
+
+       
     </div>
 
 
